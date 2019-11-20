@@ -24,7 +24,9 @@
 
 # Example : 
 
-var invite = require('invitepeople')
+var invite = require('invitepeople');
 result = new invite(value, range, destination);
-result.filter().forEach( val => {   console.log(val))
+result.filter().forEach( val => {   
+    console.log(val)
+    })
 
